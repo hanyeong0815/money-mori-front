@@ -9,6 +9,7 @@ module.exports = {
       gridTemplateColumns: {
         custom: "10% 50% 20% 10% 10%",
         custom2: "75% 1% 24%",
+        threeSeven: "10% 90%"
       },
       colors: {
         main: "#89AAE6",
