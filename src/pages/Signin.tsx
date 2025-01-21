@@ -1,5 +1,4 @@
 import loginRes from "@models/user/LoginDto";
-import loginDto from "@models/user/LoginDto";
 import useAuth from "@store/useAuth";
 import axios from "axios";
 import {
@@ -9,7 +8,6 @@ import {
   useRef,
   useState,
 } from "react";
-import { useNavigate } from "react-router-dom";
 
 interface SigninProps {
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
